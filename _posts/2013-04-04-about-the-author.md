@@ -12,4 +12,10 @@ tags: [artin,algebra,solutions]
 
 **2.** Let $\alpha = \sqrt[3]{2} \in \mathbb{R}$. If $R \subset \mathbb{C}$ is a ring containing $\alpha$, then $\mathbb{Z}[\alpha] \subset R$, so the smallest such $R$ is $\mathbb{Z}[\alpha]$. Let's describe this ring explicitly, using the relation $\alpha^3 = 2 \in \mathbb{Z}$. Given a power $\alpha^n$, use the Euclidean algorithm to write $\alpha^n = \alpha^{q3 + r} = 2^q + \alpha^r$ with $0 \leq r < 3$. Therefore any polynomial $p(\alpha) \in \mathbb{Z}[\alpha]$ can be written as $a + b \alpha + c \alpha^2$. This means $\mathbb{Z}[\alpha] = \mathbb{Z} + \mathbb{Z} \alpha + \mathbb{Z} \alpha^2$  (this is the best we can do, since $\lbrace 1, \alpha, \alpha^2 \rbrace is linearly independent over $\mathbb{Q}$).
 
-**3.** 
+**3.** Consider powers of $\alpha$:
+$$\alpha^{2k} = \frac{(-1)^k}{2^{2k}}, \quad \alpha^{2k + 1} = \frac{(-1)^k}{2^{2k + 1}}i .$$
+Since $\mathbb{Q}$ is dense in $\mathbb{R}$, it 
+suffices to show that, for _rational_ coefficients $a$ and $b$ \in \mathbb{Q}, there exists a positive integer $k$ such that
+$$|(\alpha^{2k} + \alpha^{2k + 1}) - (a + bi)| < \varepsilon .$$
+
+**4.**
