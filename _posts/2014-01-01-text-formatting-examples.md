@@ -1,15 +1,14 @@
 ---
 layout: post
-title: "Text Formatting Examples"
-author: "Paul Le"
+title: "Solutions to Artin's _Algebra_ (1st ed)"
+author: "Henrique Fonseca"
 categories: journal
-tags: [documentation,sample]
-image: cards.jpg
+tags: [algebra,solutions]
+image: artin-capa.jpg
 ---
 
-# Markdown Support
 
-As always, Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the [Markdown syntax](https://guides.github.com/features/mastering-markdown/). Examples of these text formatting features can be seen below. You can find this post in the `_posts` directory.
+I have solved some problems from the superb book _Algebra_ by Michael Artin. My (attempt at) solutions are available below.
 
 ## Basic Formatting
 
