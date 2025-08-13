@@ -6,4 +6,10 @@ categories: journal
 tags: [artin,algebra,solutions]
 ---
 
-**1a.** Ditributive property gives $0 a = (0 + 0) a = 0 a + 0 a$. Since $(R, +)$ is a group, cancelling $0a$ gives $0 = 0a$.
+**1a.** Ditributive property gives $0 a = (0 + 0) a = 0 a + 0 a$. Using that $(R, +)$ is a group, cancel $0a$ to get $0 = 0a$.
+**1b.** Distributive property gives $(-1)a + a = (-1)a + 1a = (-1 + 1) a = 0a = 0$, the last equality following from a).
+**1c.** Use b) to write $(-a)b = ((-1)a)b$, so the result follows from the associative property.
+
+**2.** Let $\alpha = \sqrt[3]{2} \in \mathbb{R}$. If $R \subset \mathbb{C}$ is a ring containing $\alpha$, then $\mathbb{Z}[\alpha] \subset R$, so the smallest such $R$ is $\mathbb{Z}[\alpha]$. Let's describe this ring explicitly, using the relation $\alpha^3 = 2 \in \mathbb{Z}$. Given a power $\alpha^n$, use the Euclidean algorithm to write $\alpha^n = \apha^{q3 + r} = 2^q + \alpha^r$ with $0 \geq r < 3$. Therefore any polynomial $p(\alpha) \in \mathbb{Z}[\alpha]$ can be written as $a + b \alpha + c \alpha^2$. This means $\mathbb{Z}[\alpha] = \mathbb{Z} + \mathbb{Z} \alpha + \mathbb{Z} \alpha^2$ (and this is the best we can do, since $\{1, \alpha, \alpha^2\}$ is linearly independent over $\mathbb{Q}$).
+
+**3.** 
