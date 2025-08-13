@@ -14,8 +14,12 @@ tags: [artin,algebra,solutions]
 
 **3.** Consider powers of $\alpha$:
 $$\alpha^{2k} = \frac{(-1)^k}{2^{2k}}, \quad \alpha^{2k + 1} = \frac{(-1)^k}{2^{2k + 1}}i .$$
-Since $\mathbb{Q}$ is dense in $\mathbb{R}$, it 
-suffices to show that, for _rational_ coefficients $a$ and $b$ \in \mathbb{Q}, there exists a positive integer $k$ such that
-$$|(\alpha^{2k} + \alpha^{2k + 1}) - (a + bi)| < \varepsilon .$$
+Let $\varepsilon > 0$. Since $\mathbb{Q}$ is dense in $\mathbb{R}$, it 
+suffices to show that, for _rational_ coefficients $a$ and $b$ \in \mathbb{Q}, there exist positive integers $k$, $k' > 0$ such that
+$$|(m\alpha^{2k} + n\alpha^{2k' + 1}) - (a + bi)| < \varepsilon ,$$
+for some $m$, $n \in \mathbb{Z}$.
+Let's do it for the first coordinate: take $k$ such that $1/2^{2k} < \varepsilon$. But $a$ lays in an interval of the form
+$$\left[ \frac{m}{2^{2k}}, \frac{m + 1}{2^{2k}} \right],$$
+for some $m \in \mathbb{Z}$. Therefore $|m/2^{2k} - a| < \varepsilon$. Similarly, one can exhibit an integer $n \in \mathbb{Z}$ with $|n/2^{2k'} - b| < \varepsilon$ and the result follows from the triangle inequality.
 
 **4.**
